@@ -1,0 +1,25 @@
+#body {
+    margin: 0;
+    background-color: blue;
+
+}
+.header {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+div {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+@media screen and (max-width: 660px) {
+    #body {
+        background-color: darkred;
+    }
+}
